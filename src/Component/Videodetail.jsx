@@ -5,7 +5,7 @@ import { Typography, Box, Stack } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 import { Videos, Loader } from "./";
-import { fetchFromAPI } from "../Utils/fetchFromAPI.js";
+import { fetchFromAPI } from "../utils/fetchFromAPI";
 
 const VideoDetail = () => {
   const [videoDetail, setVideoDetail] = useState(null);
@@ -59,4 +59,4 @@ const VideoDetail = () => {
   );
 };
 
-export default VideoDetail
+export default VideoDetail;
